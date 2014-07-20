@@ -3,7 +3,7 @@
 	<!-- NMML reference: https://gist.github.com/1763850 -->
 	
 	<!-- metadata, make sure 'package' is at least 3 segments (ie. com.mycompany.myproject) -->
-	<meta title="[PR] InfiniShip" package="br.com.yuiti.lab.infiniship.PRInfiniShip" version="1.0.0" company="Fabio Yuiti Goto" />
+	<meta title="[PR] InfiniShip" package="br.com.yuiti.lab.infiniship.PRInfiniShip" version="1.0.0" company="Fabio Y. Goto" />
 	
 	<!-- output -->
 	<app main="br.com.yuiti.lab.infiniship.Main" file="PRInfiniShip" path="bin" />
