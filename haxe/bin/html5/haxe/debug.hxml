@@ -1,0 +1,13 @@
+-main ApplicationMain 
+-lib openfl
+-lib openfl-html5
+-lib actuate
+-cp src
+-D tools=1.3.2
+-D html5
+-D web
+-js bin/html5/bin/PRInfiniShip.js
+-cp bin/html5/haxe
+-D html5
+--macro allowPackage("flash")
+-debug
