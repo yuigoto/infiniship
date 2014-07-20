@@ -1,6 +1,9 @@
 The MIT License (MIT)
+=====================
 
-Copyright (c) 2014 Fabio Goto
+Copyright (c) `2006-2014` `David Bollinger (Original Script)`
+
+Copyright (c) `2014` `Fabio Yuiti Goto`
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
