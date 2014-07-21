@@ -262,7 +262,7 @@ class InfiniShip
                 $posX += (self::SHIP_W + 4);
             }
             // Resetting X position after internal loop ends
-            $posX = 0;
+            $posX = 2;
             // Increasing Y position to properly place the next line
             $posY += (self::SHIP_H + 4);
         }
