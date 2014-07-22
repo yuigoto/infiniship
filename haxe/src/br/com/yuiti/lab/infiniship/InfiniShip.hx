@@ -368,7 +368,7 @@ class InfiniShip extends Sprite
         
         // Marking the cockpit cells
         for (i in 0...Lambda.count(cabinCell)) {
-            if ((mainseed & (1 << (Lambda.count(shapeCell) + 1))) > 0) {
+            if ((mainseed & (1 << (Lambda.count(shapeCell) + i))) > 0) {
                 shipCell[cabinCell[i]] = S_SOLID;
             } else {
                 shipCell[cabinCell[i]] = S_CABIN;
