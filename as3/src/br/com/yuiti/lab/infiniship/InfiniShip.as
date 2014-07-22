@@ -384,7 +384,7 @@ package br.com.yuiti.lab.infiniship
             
             // Marking the cockpit cells
             for (var i:Number = 0; i < countArray(cabinCell); ++i ) {
-                if ((mainseed & (1 << (countArray(shapeCell) + 1))) > 0) {
+                if ((mainseed & (1 << (countArray(shapeCell) + i))) > 0) {
                     shipCell[cabinCell[i]] = S_SOLID;
                 } else {
                     shipCell[cabinCell[i]] = S_CABIN;
