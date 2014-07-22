@@ -345,7 +345,7 @@ class InfiniShip
         
         // Marking the cockpit cells
         for ($i = 0; $i < count($cabin); ++$i) {
-            if ($s & (1 << (count($shape) + 1))) {
+            if ($s & (1 << (count($shape) + $i))) {
                 $ship[$cabin[$i]] = self::S_SOLID;
             } else {
                 $ship[$cabin[$i]] = self::S_CABIN;
