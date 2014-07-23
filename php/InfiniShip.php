@@ -222,7 +222,7 @@ class InfiniShip
         $numX = (is_numeric($numX) && $numX < 64) ? $numX : 64;
         $numY = (is_numeric($numY) && $numY < 64) ? $numY : 64;
         
-        // Calculating image dimentions
+        // Calculating image dimensions
         $imgW = $numX * (self::SHIP_W + 4);
         $imgH = $numY * (self::SHIP_H + 4);
         
