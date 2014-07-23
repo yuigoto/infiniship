@@ -527,7 +527,7 @@ InfiniShip.prototype.makeMultiple = function(numX, numY)
     numX = (numX > 0) ? numX : 8;
     numY = (numY > 0) ? numY : 8;
     
-    // Calculating image dimentions
+    // Calculating image dimensions
     this.main.width = (this.SHIP_W + 4) * numX;
     this.main.height = (this.SHIP_H + 4) * numY;
     
