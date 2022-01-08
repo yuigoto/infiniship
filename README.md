@@ -2,6 +2,9 @@
 
 _A remake of David Bollinger's "Pixel Spaceships", made in 2014._
 
+> ### :warning: HEY!
+> If you're into JavaScript/TypeScript, it might be worth looking at the modified and updated package version [**over here**](https://github.com/yuigoto/infiniship-js), it's available on NPM, with typings! :wink:
+
 > This is a procedural, pixelated, spaceship generator that tries to follow the same set of rules as [**David Bollinger's _Pixel Spaceships_**][0].
 
 I first saw this script not in its [original form][0], but in a version made by **mtheall** for [HTML5 Canvas][1], in a blog post about a _["Homebrew Space Invaders Clone Compo"][2]_.
